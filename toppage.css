@@ -8,7 +8,7 @@
     margin-bottom: 16px;
     padding-right:50px;
     padding-top:20px;
-    padding-bottom:100px;
+    padding-bottom:200px;
 }
 
 ul{
@@ -52,17 +52,33 @@ input::-webkit-input-placeholder {
     display: flex;
     align-items: center; 
     justify-content: center;
+    padding-bottom: 20px;
 }
 
 .catch:before, .catch:after {
     border-top: 1px solid;
     content: "";
     width: 3em; /* 線の長さ */
-  }
-  .catch:before {
-    margin-right: 1em; /* 文字の右隣 */
-  }
-  .catch:after {
-    margin-left: 1em; /* 文字の左隣 */
-  }
+}
+.catch:before {
+    margin-right: 1em; 
+}
+.catch:after {
+    margin-left: 1em;
+}
+
+.facebooklogin{
+    color: dodgerblue;
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 15px;
+}
+
+.forget{
+    display: flex;
+    align-items: center; 
+    justify-content: center;
+    padding-bottom: 20px;
+}
   
